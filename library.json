@@ -4,6 +4,11 @@
   "description": "Shared sensor drivers and helpers for ESP32 projects.",
   "frameworks": ["arduino"],
   "platforms": ["espressif32"],
+  "dependencies": {
+    "adafruit/DHT sensor library": "*",
+    "paulstoffregen/OneWire": "*",
+    "sensirion/Sensirion I2C SHT4x": "*"
+  },
   "build": {
     "flags": [
       "-I DhtSensor/include",
