@@ -3,5 +3,18 @@
   "version": "0.1.0",
   "description": "Shared sensor drivers and helpers for ESP32 projects.",
   "frameworks": ["arduino"],
-  "platforms": ["espressif32"]
+  "platforms": ["espressif32"],
+  "build": {
+    "flags": [
+      "-I DhtSensor/include",
+      "-I DS18B20Sensor/include",
+      "-I SensorBase/include",
+      "-I Sht45Sensor/include"
+    ],
+    "srcFilter": [
+      "+<DhtSensor/src/>",
+      "+<DS18B20Sensor/src/>",
+      "+<Sht45Sensor/src/>"
+    ]
+  }
 }
