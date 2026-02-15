@@ -7,7 +7,8 @@
   "dependencies": {
     "adafruit/DHT sensor library": "*",
     "paulstoffregen/OneWire": "*",
-    "sensirion/Sensirion I2C SHT4x": "*"
+    "sensirion/Sensirion I2C SHT4x": "*",
+    "milesburton/DallasTemperature": "^3.11.0"
   },
   "build": {
     "flags": [
