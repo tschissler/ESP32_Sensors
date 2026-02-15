@@ -6,7 +6,7 @@
   "platforms": ["espressif32"],
   "dependencies": {
     "adafruit/DHT sensor library": "*",
-    "OneWire": "https://github.com/tschissler/ESP32_Colors.git",
+    "OneWire": "https://github.com/PaulStoffregen/OneWire.git",
     "sensirion/Sensirion I2C SHT4x": "*",
     "milesburton/DallasTemperature": "^3.11.0",
     "adafruit/Adafruit BMP280 Library": "^2.6.8",
