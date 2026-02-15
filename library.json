@@ -17,12 +17,14 @@
       "-I DhtSensor/include",
       "-I DS18B20Sensor/include",
       "-I SensorBase/include",
-      "-I Sht45Sensor/include"
+      "-I Sht45Sensor/include",
+      "-I Bmp280Sensor/include"
     ],
     "srcFilter": [
       "+<DhtSensor/src/>",
       "+<DS18B20Sensor/src/>",
-      "+<Sht45Sensor/src/>"
+      "+<Sht45Sensor/src/>",
+      "+<Bmp280Sensor/src/>"
     ]
   }
 }
